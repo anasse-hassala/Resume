@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  6 NOV 2015 11:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  6 NOV 2015 17:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -859,14 +859,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 196--196
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 224.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 226.
 [2
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 224.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 226.
  (./cvfr.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 224.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 224.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 226.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 226.
 Package rerunfilecheck Info: File `cvfr.out' has not changed.
 (rerunfilecheck)             Checksum: 8D9CC8A2B2275FF06C14352F9F03FD42;1038.
 
@@ -875,11 +875,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 12265 strings out of 493117
- 178419 string characters out of 6135433
+ 12267 strings out of 493117
+ 178435 string characters out of 6135433
  297305 words of memory out of 5000000
  15503 multiletter control sequences out of 15000+600000
- 75732 words of font info for 67 fonts, out of 8000000 for 9000
+ 75865 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,12n,67p,770b,352s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}{/usr/l
@@ -893,7 +893,7 @@ sym/marvosym.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/tex-gyr
 e/qplb.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/tex-gyre/qplb
 i.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/tex-gyre/qplr.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/tex-gyre/qplri.pfb>
-Output written on cvfr.pdf (2 pages, 198653 bytes).
+Output written on cvfr.pdf (2 pages, 198755 bytes).
 PDF statistics:
  111 PDF objects out of 1000 (max. 8388607)
  86 compressed objects within 1 object stream
