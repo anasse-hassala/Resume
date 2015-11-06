@@ -1,0 +1,144 @@
+\documentclass[11pt,a4paper]{moderncv}
+
+%%======================================================================
+%% See the original template at
+%% http://mirrors.ctan.org/macros/latex/contrib/moderncv/examples/template.tex
+%% if you want more options for configuration
+%%======================================================================
+
+%%----------------------------------------------------------------------
+%% Preamble
+%%----------------------------------------------------------------------
+
+\moderncvtheme[grey,roman]{classic}
+
+%% Character encoding
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+%% Fonts
+\usepackage{textcomp}
+\usepackage[protrusion=true,expansion=true]{microtype}
+% Bitstream Charter with mathdesign
+\usepackage[charter]{mathdesign} % serif: Bitstream Charter
+\usepackage[scaled]{beramono} % truetype: Bistream Vera Sans Mono
+\usepackage[scaled]{helvet} % sans-serif: Helvetica
+
+%% Adjust the page margins
+\usepackage[scale=0.8]{geometry}
+
+%% Personal data
+\firstname{\Huge Spock}
+\familyname{\Huge Xtmprszntwlfd}
+\title{\textit{Curriculum Vit\ae}}
+\address{Spock's home adress}{Shi'Kahr, Vulcan}
+\mobile{555-spock}
+\phone{555-vulcan}
+%\fax{fax (optional)}
+\email{spock@ussenterprise.org}
+\homepage{startrek.com/database\_article/spock}
+\github{github.com/spock-vulcan}
+\linkedin{linkedin.com/in/spock}
+\lattes{lattes.cnpq.br/2222077812442414}
+%\extrainfo{additional information (optional)}
+%\photo[64pt]{picture}                         % '64pt' is the height
+%\quote{Some quote (optional)}
+
+% to show numerical labels in the bibliography; only useful if you make
+% citations in your resume
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+
+% uncomment to suppress automatic page numbering for CVs longer than one page
+%\nopagenumbers{}
+
+%%----------------------------------------------------------------------
+%% Content
+%%----------------------------------------------------------------------
+
+%% Again, see original template for more options!
+
+\begin{document}
+\maketitle
+
+\section{Education}
+\cventry{2249--2253}{Physics}{Starfleet Academy}{}{Ph.D}{Spock's thesis
+  title.}
+
+\section{Complementary Training}
+
+\subsection{Internship}
+
+\cventry{2250}{Institution}{}{}{}{Description}
+
+\subsection{Courses taken}
+
+\cventry{2252}{Institution}{21h}{Effective statistical modelling with
+  \textsf{R}}{}{}
+
+
+\section{Experience}
+
+\subsection{Professional experience}
+
+\cventry{2252--2269}{Starfleet}{}{}{}{Several positions:
+  \begin{itemize}
+  \item Cadet
+  \item First officer and science officer
+  \item Commander
+  \end{itemize}
+}
+
+\subsection{Courses taught}
+
+\cventry{2277}{Starfleet Academy}{160h}{How to pilot a spaceship}{}{}
+
+\section{Interests}
+
+\cvline{}{Protect the Federation}
+\cvline{}{Peace in universe}
+
+\section{Computational Skills}
+\cvcomputer{Operating Systems}{Linux}{}{}
+\cvcomputer{Programming Languages}{\textsf{R}, C, Fortran, \LaTeX{}}{}{}
+\cvcomputer{Tools}{git, Shell}{}{}
+
+\section{Languages}
+\cvlanguage{Vulcan}{Native}{}
+\cvlanguage{English}{Fluent}{IELTS band 9}
+
+\section{Grants}
+
+\cventry{2260--2269}{Starfleet}{}{}{}{Money for the Enterprise}
+
+\section{Awards}
+
+\cventry{2277}{Starfleet Academy}{}{}{}{Captain emerit}
+
+\section{Publications}
+
+\subsection{Peer-reviewed publications}
+
+\cvline{1}{Xtmprszntwlfd, S. 2278. Title here. \textbf{Science}, 12(1):
+  234--678.} 
+
+\subsection{Books}
+
+\cvline{1}{Xtmprszntwlfd, S. 2280. \textbf{How to pilot
+    Enterprise}. Starfleet Press, 1982 p.}
+
+\subsection{Reports}
+
+\cvline{1}{Xtmprszntwlfd, S. \& Kirk, J. T.  \textbf{Secret activities
+    of the Enterprise}. Report.}
+
+\end{document}
+
+% Info about Spock found at
+% http://www.startrek.com/database_article/spock
+% http://en.wikipedia.org/wiki/Spock

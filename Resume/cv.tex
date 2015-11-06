@@ -1,0 +1,190 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same
+% directory as this .tex file. These files provide the resume style and themes
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt,a4paper,roman]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper,letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{banking} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\usepackage[utf8]{inputenc}
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+\usepackage{verbatim}
+\usepackage[scale=0.9, top=0.5cm]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{8cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Anasse} % Your first name
+\familyname{Hassala} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Information Technology Engineering Student}
+\address{5 Rue Charles Fourier, room 2525}{Evry, France 91000}
+\mobile{+33(0) 651 546 186}
+%\phone{(000) 111 1112}
+%\fax{(000) 111 1113}
+\email{anasse@hassala.com}
+\homepage{anasse.hassala.com}{anasse.hassala.com} % The first argument is the url for the clickable link,the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+\extrainfo{\href{https://github.com/a-hassala}{\includegraphics[width=10px]{pictures/github-logo.png}
+GitHub} \quad{} \href{https://linkedin.com/in/anassehassala}{\includegraphics[width=9px]{pictures/linkedin.jpg}
+LinkedIn}}
+\photo[70pt][0.1pt]{pictures/myface} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+\quote{IT internship : February-October 2016}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+\section{Career objective}
+\cventry{}{Information systems security expert}{}{}{}{}
+\section{Education}
+\cventry{2015--2016}{MSC}{Télécom ParisTech - EURECOM}{Sophia, France}{}
+{Specialized in System and Network Security}
+\cventry{2013--2016}{M.S. Telecoms engineering - leading engineering school in telecoms}{Télécom Sudparis}{Evry, France}{}{Specialized in System and Network Security}
+\cventry{2011--2013}{Preparatory course for engineering school}{Lycée Saint-Louis}{Paris, France}{\textit{MP*}}{Best course majoring in Maths and Computer Science amid top 10 French schools leading to national competitive entrance exam}  % Arguments not required can be left empty
+
+%\section{Masters Thesis}
+
+%\cvitem{Title}{\emph{Money Is The Root Of All Evil -- Or Is It?}}
+%\cvitem{Supervisors}{Professor James Smith \& Associate Professor Jane Smith}
+%\cvitem{Description}{This thesis explored the idea that money has been the cause of untold anguish and suffering in the world. I found that it has, in fact, not.}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+%\subsection{Volunteer}
+
+\cventry{2013--Present}{President (2014-2015)}{\textsc{MiNET Association}}{Evry, France}{}{ Association managing the campus network }
+Detailed achievements:
+\begin{itemize}
+    \item Managed a production architecture composed of a Proxmox cluster and
+    2 NASs running OpenIndiana with NFS
+    \item Configured Cisco hardware
+    \item Deployed WIFI Network in a campus building and connected a new building
+    %\begin{itemize}
+    %\item Programming and formatting web pages (HTML5/CSS3, JavaScript, Ruby)
+    \item Manged and configured network services : DNS,(reverse) Proxy, NAT, RADIUS, Firewall, etc.
+    %\end{itemize}
+    %\item Test et amélioration de matériel (Routeurs, Câbles Ethernet, etc.)
+    \item Contributed in developing an ISP back-end  with Ruby on Rails in continuous integration
+\end{itemize}
+
+\cventry{2014-2015}{Technical consultant}{\textsc{Sprint Junior Entreprise}}{Evry, France}{}{Managed technical aspects of business proposals. Supervised IT, software and web development training sessions.}
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Awards}
+
+\cvitem{2011--2016}{AEFE "Excellence-Major" Scholarship}
+%\cvitem{2010}{Top Achiever Award -- Commerce}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Computer skills}
+
+\cvitem{Web/Software}{\textsc{html5/CSS3}, \textsc{PHP Symphony}, \textsc{Ruby On Rails}, \textsc{JavaScript JQuery}, \textsc{C/C++}, \textsc{JAVA}}
+\cvitem{Dev Tools}{\textsc{Git},\textsc{Redmine},\textsc{Jenkins},\textsc{Capistrano}}
+\cvitem{Network}{\textsc{DNS}, \textsc{Proxy}, \textsc{C}isco, \textsc{Wireshark}, \textsc{Linux} servers administration }
+\cvitem{Production}{\LaTeX, \textsc{O}pen office, Microsoft Office Suite}
+\cvitem{Operating systems }{\textsc{Linux}(Arch/Debian), \textsc{Solaris}/Open\textsc{Indiana}, OS X/\textsc{iOS},
+ \textsc{Windows}}
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Communication Skills}
+
+%\cvitem{2013-2014}{Effective speaking course : built and performed various public speeches}
+%\cvitem{2009}{Poster at the Annual Business Conference in Oregon}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+%\cvitemwithcomment{French}{Mother-tongue}{}
+\cvitemwithcomment{English}{Fluent}{Professionally fluent - European \textbf{C2} Level}
+\cvitemwithcomment{Spanish}{Fluent}{Conversationally fluent - European \textbf{B2} Level}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Interests}
+
+\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+%\cvlistdoubleitem{IT news}{Programming}
+\cvlistdoubleitem{Volleyball: Regional\&University tournament player}{Guitar player}
+
+\end{document}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+\begin{comment}
+\clearpage
+
+\recipient{Academic affairs}{EURECOM\\CS 50193\\F-06904 Sophia Antipolis cedex} % Letter recipient
+\date{\today} % Letter date
+\opening{Dear Sir or Madam,} % Opening greeting
+\closing{Sincerely yours,} % Closing phrase
+\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+\makelettertitle % Print letter title
+
+Currently in second year at the French top graduate engineering school Telecom SudParis, I am very interested in applying to the 6-12 months engineering program in accordance with the IMT mobility agreement.
+
+First of all, since EURECOM offers some of the best engineering programs in France, it would obviously be a wonderful opportunity as well as a great honor for me to be accepted in such an institution where I could get the most excellent standards. Moreover, the flexibility that the 6-12 months program offers in choosing courses would be an occasion to deal with subjects I like in depth, such as System and Network Security or Software development thanks to the Technical Interest Areas of the same name.
+
+Then, the fact that I have already been through the courses catalog and have a clear idea of the curriculum to follow should my application be accepted as I write this cover letter proves my certain motivation and interest in this program that I believe best fits my career objectives. In addition, my English
+level allows me to take courses in English rather properly and integrate myself easier, for I am considered a language level C2 student in English according to the European CEFR scale.
+
+Besides, the international aspect of this worldwide known program with students coming from all over the world would allow me to meet new people and cultures, as well as learn a lot from them. To tell the
+truth, I enjoy that a lot since I'm a foreign student that had many chances to meet a lot of foreign students coming from different countries.
+
+Finally, I am currently the president of the MiNET association which provides internet network, voip and television in the student apartments which makes network related subjects (particularly security) my chosen field.
+
+
+\makeletterclosing % Print letter signature
+\end{comment}
+%----------------------------------------------------------------------------------------
+\end{document}

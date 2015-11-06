@@ -1,0 +1,224 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same
+% directory as this .tex file. These files provide the resume style and themes
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt,a4paper,roman]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper,letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{banking} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\usepackage[utf8]{inputenc}
+\usepackage{verbatim}
+\usepackage[scale=0.92, top=0.4cm]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{8cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Anasse} % Your first name
+\familyname{Hassala} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Élève Ingénieur}
+
+\address{105 Av. du General Leclerc}{Saint-Laurent du Var, France 06700}
+\mobile{+33 (0)6 51 54 61 86}
+%\phone{(000) 111 1112}
+%\fax{(000) 111 1113}
+\email{anasse@hassala.com}
+\homepage{anasse.hassala.com}{anasse.hassala.com} % The first argument is the url for the clickable link,the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+\extrainfo{\href{https://github.com/anasse-hassala}{\includegraphics[width=10px]{pictures/github-logo.png}
+GitHub} \quad{} \href{https://linkedin.com/in/anassehassala}{\includegraphics[width=9px]{pictures/linkedin.jpg}
+LinkedIn}}
+\photo[70pt][0.1pt]{pictures/myface} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+\quote{Stage de fin d'études ingénieur Mars-Septembre 2016}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+	\makecvtitle % Print the CV title
+	\vspace*{-10mm}
+
+	%----------------------------------------------------------------------------------------
+	%	EDUCATION SECTION
+	%----------------------------------------------------------------------------------------
+	%\section{Career objective}
+	%\cventry{}{Information systems security expert}{}{}{}{}
+	\section{Formation}
+
+	\cventry{2015--2016}{Cycle international ingénieur}{Télécom ParisTech - EURECOM}{Sophia-Antipolis, France}{}
+	{Sécurité des systèmes et des réseaux - Big Data}
+	\cventry{2013--2015}{Cycle ingénieur}{Télécom SudParis}{Evry, France}{}{Tronc commun et spécialité en sécurité des SI et développement web}
+	\cventry{2011--2013}{Classes préparatoires aux grandes écoles}{Lycée Saint-Louis}{Paris, France}{\textit{MP*}}{Option informatique}  % Arguments not required can be left empty
+
+	%\section{Masters Thesis}
+
+	%\cvitem{Title}{\emph{Money Is The Root Of All Evil -- Or Is It?}}
+	%\cvitem{Supervisors}{Professor James Smith \& Associate Professor Jane Smith}
+	%\cvitem{Description}{This thesis explored the idea that money has been the cause of untold anguish andsuffering in the world. I found that it has, in fact, not.}
+
+	%----------------------------------------------------------------------------------------
+	%	COMPUTER SKILLS SECTION
+	%----------------------------------------------------------------------------------------
+
+	\section{Compétences}
+
+	\cvitem{Développement Web}{\textsc{html5/CSS3}, \textsc{PHP5/Symphony2}, \textsc{Node.js}, \textsc{Ruby/Rails4}, \textsc{JavaScript/jQuery}}
+	\cvitem{Big Data}{\textsc{Data Streams Algorithms}, \textsc{Hadoop MapReduce}, \textsc{Spark}}
+	\cvitem{Réseau}{\textsc{TCP/IP}, \textsc{Réseaux mobiles}, \textsc{DNS}, \textsc{Proxy}, \textsc{C}isco, \textsc{Wireshark}, Administration de serveurs \textsc{Linux}}
+	\cvitem{Outils de production}{\textsc{\LaTeX }, \textsc{Suite Office}, \textsc{Git/SVN}, \textsc{Jenkins}, \textsc{Redmine}}
+	\cvitem{OS}{\textsc{Debian}, \textsc{RHEL/CentOS}, \textsc{Windows}, \textsc{Mac OS X}, \textsc{Linux Kernel}}
+
+	%----------------------------------------------------------------------------------------
+	%	WORK EXPERIENCE SECTION
+	%----------------------------------------------------------------------------------------
+
+	\section{Expériences professionnelles}
+
+	\subsection{Stages et Missions}
+	\cventry{Juin 2015 - Septembre 2015}{Stage ingénieur}{\textsc{Buzzinbees}}{Sophia-Antipolis, France}{HTML5/CSS3 - jQuery - Node.js}{
+\begin{itemize}
+	\item Spécification et conception d'une architecture système répondant au standard de sécurité \textsc{FIPS} 140-2
+	\item Réalisation d’une demo web multiplatformes pour l’action commerciale et marketing
+\end{itemize}}
+
+	\cventry{2015}{Intervenant ingénieur}{3\textsc{BIS Architecture}}{La Garenne-Colombes, France}{Analyse de traffic réseau - Pentesting}{Réalisation d'un audit complet du réseau local d'entreprise,
+	réponse à incident et rédaction d'un rapport de synthèse et de recommendations en architecture et sécurité réseau}
+
+	\subsection{Engagements associatifs et projets en équipe}
+
+	\cventry{2013 - 2016}{Président 2014-2015}{\textsc{MiNET - 2\textsuperscript{e} FAI étudiant de France}}{Evry, France}{}{
+		Pilotage de 3 projets réseau en équipe pour l'année 2014-2015 en tant que président de l'association : \begin{itemize}
+		\item Déploiement et administration d'une architecture composée d'un cluster de production sous proxmox et
+		deux NAS sous OpenIndiana avec NFS
+		%\item Configuration de matériel Cisco
+		\item Déploiement d'un réseau wifi dans une résidence étudiante et raccordement filaire d'un nouveau bâtiment de 200 clients
+		\item Contribution au développement d’un back-end de FAI avec Ruby on Rails en intégration continue
+		%\begin{itemize}
+		%\item Programming and formatting web pages (HTML5/CSS3, JavaScript, Ruby)
+		%\item Gestion et configuration de service réseau : DNS,(reverse) Proxy, NAT, RADIUS, Firewall, etc.
+		%\end{itemize}
+		%\item Test et amélioration de matériel (Routeurs, Câbles Ethernet, etc.)
+	\end{itemize}}
+
+	\cventry{2014-2016}{Expert Technique}{\textsc{Sprint Junior Entreprise}}{Evry, France}{}{
+		Accompagnement de chefs de projets et d'intervenants lors des missions techniques. Chiffrage de propositions commerciales}
+
+
+	\cventry{2014-2015}{Chef de projet }{\textsc{Projet Cassiopée}}{Evry, France}{$1^{er}$ prix de la catégorie développement 2015}
+	{Pilotage d'un projet de conception et développement d'une application web pour la gestion et la recherche de bourses pour les étudiants
+	de Télécom SudParis}
+
+	%\cventry{2013-2014}{Chef de projet}{\textsc{Projet GATE}}{Evry, France}{}{Pilotage d'un projet en équipe tout le long de l'année scolaire et gestion des
+	%conflits, des échéances et des objectifs.}
+
+	%------------------------------------------------
+
+	%\subsection{Tutoring}
+
+	%\cventry{2011--Present}{Junior and high school students}{Maths\&Physics}{Paris and Evry}{}{Worked with more than 7 different students with very satisfying results : clear progression in both subjects.}
+	%----------------------------------------------------------------------------------------
+	%	AWARDS SECTION
+	%----------------------------------------------------------------------------------------
+
+	%\section{Prix}
+
+	%\cvitem{2011--2016}{AEFE " Bourse Excellence-Major"}
+	%\cvitem{2010}{Top Achiever Award -- Commerce}
+
+	%----------------------------------------------------------------------------------------
+	%	COMMUNICATION SKILLS SECTION
+	%----------------------------------------------------------------------------------------
+
+	%\section{Communication Skills}
+
+	%\cvitem{2013-2014}{Effective speaking course : built and performed various public speeches}
+	%\cvitem{2009}{Poster at the Annual Business Conference in Oregon}
+
+	%----------------------------------------------------------------------------------------
+	%	LANGUAGES SECTION
+	%----------------------------------------------------------------------------------------
+
+	\section{Langues}
+
+	\cvitemwithcomment{Anglais}{Conversationnel et professionnel}{TOEIC : 990/990pts - Niveau Européen \textbf{C2}}
+	\cvitemwithcomment{Espagnol}{Courant}{Niveau Européen \textbf{B2}}
+
+	%----------------------------------------------------------------------------------------
+	%	INTERESTS SECTION
+	%----------------------------------------------------------------------------------------
+
+	\section{Centres d'intérêts}
+
+	\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+	%\cvlistdoubleitem{IT news}{Programming}
+	\cvitem{Veille technologique } {Lecture de blogs et magazines spécialiés en informatique}
+	\cvitem{VTT } {Pratique occasionnelle}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+\clearpage
+
+\recipient{RTE}{Tour Initiale\\ 1 Terrasse Bellini\\ 92800 Puteaux\\ France} % Letter recipient
+\date{06 Novembre 2015} % Letter date
+\opening{Madame, Monsieur} % Opening greeting
+
+\closing{Bien cordialement,} % Closing phrase
+\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+\makelettertitle % Print letter title
+
+\quad \quad Je vous adresse la présente lettre pour vous faire part de ma volonté spontanée de chercher un stage de fin d'études au sein de votre
+service.\\[0.3cm]
+\quad \quad En effet, étant actuellement étudiant en dernière année du cycle ingénieur de \textsc{Telecom SudParis} en spécialité
+\textit{Sécurité des systèmes et des réseaux} que je poursuis en échange à EURECOM (école filiale de l'institut Mines-Telecom), je suis en cours
+de recherche d'un stage de fin d'études dans le domaine des SI/réseaux à partir de fin Fevrier ou début Mars 2016.\\[0.3cm]
+\quad \quad J'ai eu l'occasion, durant les deux dernières années, de consulter plusieurs offres de stage correspondant à ma cible de recherche actuelle
+au sein de votre serice. Ces sujets m'ayant attirés de par leurs contexts techniques, professionnels et humains.\\
+En effet, les environnements offrent généralement d'excellentes opportunités pour acquérir des compétences transverses autour des métiers du SI.
+Mais englobent aussi de fortes composantes en gestion de projet correspondant parfaitement au tremplin professionnel et humain que j'envisage pour mon
+stage de fin d'études et son inscription dans ma carrière que je souhaite orienter vers la gestion de projet SI/Telecom.\\
+En outre, les défis techniques souvent mis en jeu interpellent mon très fort engouement pour les nouvelles technologies que j'ai pu
+développer en tant qu'expert technique au sein de \textsc{Sprint junior entreprise}. Cela m'ouvrirait également la possibilité de développer mon
+potentiel et mon expertise métier autour du SI, dans la continuité de mon activité en tant que président de l'association \textsc{MiNET},
+le 2\textsuperscript{e} fournisseur d'accès internet étudiant de France.\\
+De plus, je suis particulièrement motivé par un stage où je pourrai apporter mon expérience et mes connaissances, mais également
+apprendre au sein d'un groupe aussi bien réputé pour son environnement humain de travail et offrant une si grande opportunité
+de carrière que le groupe \textsc{RTE}.\\
+Enfin, mon autonomie et ma curiosité m'ont toujours poussé à étudier de nouveaux concepts et à relever de nouveaux défis techniques bien au-delà de ma
+formation initiale et du cadre de mes études, ce que je compte d'autant plus mettre en \oe uvre au cours de mon stage.\\
+C'est pour ces raisons, que je viens sollicité auprès de votre service une sujet de stage de fin d'étude en SI/Telecom à partie de
+fin Fevrier ou début Mars 2016.\\[0.3cm]
+Je reste à votre disposition pour toute information complémentaire. \\[1cm]
+
+\makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+\end{document}
