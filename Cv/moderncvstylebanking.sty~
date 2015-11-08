@@ -277,6 +277,7 @@
 %  \\[1em] % UK style
   \@date\\[2em]% US informal style: "April 6, 2006"; UK formal style: "05/04/2006"
   % opening
+  \raggedright%
   \@opening\\[1.5em]%
   % ensure no extra spacing after \makelettertitle due to a possible blank line
 %  \ignorespacesafterend% not working
